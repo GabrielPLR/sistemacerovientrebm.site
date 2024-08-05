@@ -14,7 +14,7 @@
     }
 
     .aviso-topo {
-      background-color: blue;
+      background-color: orange;
       color: white;
       padding: 10px;
       text-align: center;
@@ -90,7 +90,8 @@
           <div class="aviso-template">
             <p>Clique no vídeo abaixo para entender melhor!</p>
             
-        <div id="vid_66b10414e2ae1b000ca5c7d7" style="position:relative;width:100%;padding: 56.25% 0 0;"> <img id="thumb_66b10414e2ae1b000ca5c7d7" src="https://images.converteai.net/330d9684-ac7a-4f8c-bf58-7adc33083148/players/66b10414e2ae1b000ca5c7d7/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66b10414e2ae1b000ca5c7d7" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66b10414e2ae1b000ca5c7d7"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/330d9684-ac7a-4f8c-bf58-7adc33083148/players/66b10414e2ae1b000ca5c7d7/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+        <div id="vid_66b10414e2ae1b000ca5c7d7" style="position:relative;width:100%;padding: 56.25% 0 0;"> <img id="thumb_66b10414e2ae1b000ca5
+
            </script>
           </div>    
          
@@ -100,39 +101,7 @@
     </div>
   </header>
 
-  <script>
-    // Função para atualizar a data atual
-    function atualizarData() {
-      var data = new Date();
-      var dia = String(data.getDate()).padStart(2, '0');
-      var mes = String(data.getMonth() + 1).padStart(2, '0'); // Janeiro é 0!
-      var ano = data.getFullYear();
-      var dataAtual = dia + '/' + mes + '/' + ano;
-      document.getElementById('dataAtual').innerText = dataAtual;
-    }
-
-    // Função para simular a contagem de pessoas assistindo
-    function atualizarContagem() {
-      var numeroAssistindo = document.getElementById('numero-assistindo');
-      var contagemAtual = parseInt(numeroAssistindo.innerText);
-      var novaContagem = contagemAtual + Math.floor(Math.random() * 10) - 5; // Simula variação aleatória
-      if (novaContagem < 0) novaContagem = 0; // Evita números negativos
-      numeroAssistindo.innerText = novaContagem;
-    }
-
-    // Chamar a função de atualização de data assim que a página carregar
-    atualizarData();
-
-    // Chamar a função de atualização de contagem a cada intervalo de tempo (exemplo: a cada 5 segundos)
-    setInterval(atualizarContagem, 5000); // Ajuste o intervalo conforme necessário (em milissegundos)
-  </script>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="./assets/js/com.js"></script>
-
-  <div style="text-align: center; padding: 20px; background-color: blue; color: white;">
+  <div style="text-align: center; padding: 20px; background-color: orange; color: white;">
     <p>Todos os direitos reservados - Copyright 2024</p>
   </div>
 
