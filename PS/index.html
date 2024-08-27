@@ -1,124 +1,460 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" dir="ltr">
 <head>
+<meta name="robots" content="index, follow">
+<link rel="shortcut icon" href="data:" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.novidadelucrativa.site/b2">
+<meta property="og:title" content="ShopCash">
+<meta property="og:description" content="Shop">
+<meta property="og:image" content="https://media.atomicatpages.com/u/nKBwdiZpLiNlLemQgszsi5FugCo2/l/EEXdAD3920218.png">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/0572283b45.js"></script>
-<style type="text/css">
-      nav {
-        background-color: #BF0A0A;
-        color: white;
-      }
-      .fsec {
-        background-color: #FCFCFC;
-      }
-      .fsec h1 {
-        color: #4F5AEA;
-      }
-      .fsec h4 {
-        color: #636E72;
-      }
-      .ssec {
-        background-color: #EEEEEE;
-      }
-      .btn {
-        font-size: 200%;
-        font-family: 'Oswald', sans-serif;
-        white-space: normal;
-      }
-
-       
-  
- 
-  /* Defina a animação para o botão */
-  .animated-button {
-    animation: shake 2s infinite;
-  }
-
-  /* Defina a chaveframes para a animação de tremor */
-  @keyframes shake {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(-5px);
-    }
-    50% {
-      transform: translateX(5px);
-    }
-    75% {
-      transform: translateX(-5px);
-    }
-    100% {
-      transform: translateX(5px);
-    }
-  }
-</style>
-
 <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '3546460875605173');
-  fbq('track', 'AddtoCart');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=3546460875605173&ev=AddtoCart&noscript=1"
-/></noscript>
+  function onLoad() {
+    var links = document.getElementsByTagName("a");
 
+    for (var i = 0, n = links.length; i < n; i++) {
+      if (links[i].href.includes("#")) {
+        continue;
+      }
+
+      var href =
+        links[i].href.trim() +
+        (links[i].href.indexOf("?") > 0 ? "&" : "?") +
+        document.location.search.replace("?", "").toString();
+      links[i].href = href;
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", onLoad);
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>ShopCash</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');">
+<style>@media (max-width:640px){.atm-hidden-mobile{display:none}}@media (min-width:640px){.atm-hidden-desktop{display:none}}.col-span-1{grid-column: span 1 / span 1;}.col-span-2{grid-column: span 2 / span 2;}.items-center{align-items:center}.grid-cols-6{grid-template-columns: repeat(6, minmax(0, 1fr))}.grid-cols-5{	grid-template-columns: repeat(5, minmax(0, 1fr))}.grid-cols-4{grid-template-columns: repeat(4, minmax(0, 1fr))}.grid-cols-2{grid-template-columns: repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns: repeat(3, minmax(0, 1fr))}.grid-cols-1{grid-template-columns: repeat(1, minmax(0, 1fr))}.grid{display:grid}.basis-1\/2{flex-basis:50%}.flex{display:flex}.gap-1{gap:4px}.gap-2{gap:8px}.gap-4{gap:16px}.gap-6{gap:24px}.gap-12{48px}.gap-24{gap:96px}.justify-center{justify-content:center}.basis-full{flex-basis:100%}html{scroll-behavior:smooth;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}body,center,dd,del,div,dt,em,footer,h1,h2,h3,h4,h5,h6,i,iframe,img,p,q,s,small,span,strike,strong,sub,sup,table,tbody,td,tr,u{margin:-1px 0 0 0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:Roboto,sans-serif}.u{-moz-user-select:none;-webkit-user-select:none;cursor:default}table{border-collapse:collapse;border-spacing:0}body{line-height:1}body{background-color:#ffffff;overflow-x:hidden}iframe,img,svg{max-width:100%}h1,h1 b,h1 span,h2,h2 b,h2 span,h3,h3 b,h3 span{font-family:Poppins,sans-serif}a{text-decoration:none;font-family:Roboto,sans-serif}a.btn{font-family:Montserrat,sans-serif}em span.lg,em span.md,em span.sm{font-style:italic}@media (max-width:600px){.flex-large,.flex-small{margin-right:0!important;margin-bottom:16px}}.flexrow{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center}.flex-large,.flex-small{flex-basis:100%}.flex-large:last-child,.flex-small:last-child{margin-right:0!important}@media (min-width:600px){.flex-small{flex:1;margin-bottom:0!important;padding-bottom:0!important}.flex-small.half{flex:0 0 calc(1 / 2 * 100%)}.flex-small.one-fifth{flex:0 0 calc(1 / 5 * 100%)}.flex-small.two-fifths{flex:0 0 calc(2 / 5 * 100%)}.flex-small.one-fourth{flex:0 0 calc(1 / 4 * 100%)}.flex-small.two-fourths{flex:0 0 calc(2 / 4 * 100%)}.flex-small.three-fourths{flex:0 0 calc(3 / 4 * 100%)}.flex-small.one-third{flex:0 0 calc(1 / 3 * 100%)}.flex-small.two-thirds{flex:0 0 calc(2 / 3 * 100%)}}@media (min-width:1000px){.flex-large{flex:1;margin-bottom:0}.flex-large.half{flex:0 0 calc(1 / 2 * 100%)}.flex-large.one-fifth{flex:0 0 calc(1 / 5 * 100%)}.flex-large.two-fifths{flex:0 0 calc(2 / 5 * 100%)}.flex-large.one-fourth,.flex-large.two-fourths{flex:0 0 calc(1 / 4 * 100%)}.flex-large.three-fourths{flex:0 0 calc(3 / 4 * 100%)}.flex-large.one-third{flex:0 0 calc(1 / 3 * 100%)}.flex-large.two-thirds{flex:0 0 calc(2 / 3 * 100%)}}@media (min-width:640px){.sm\:gap-1{gap:6px}.sm\:gap-2{gap:12px!important}.sm\:gap-4{gap:24px}.sm\:gap-6{gap:32px}.sm\:gap-12{gap:64px}.sm\:gap-24{gap:128px}.sm\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.sm\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}}</style>
+<script src="https://backend.nemu.com.br/trackings/script.js" async data-tracking-id="afnMhozgBC" crossorigin="anonymous"></script>
 </head>
-<body>
-<nav class="navbar justify-content-center text-center">
-<span class="lead">
-<i class="fas fa-exclamation-triangle mr-2"></i>¡ATENCIÓN! LEE LAS SIGUIENTES PALABRAS CUIDADOSAMENTE SI QUIERES PERDER PESO DE UNA VEZ POR TODAS…
-</span>
-</nav>
-<section class="py-5 fsec">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-10 text-center">
-<h1>Sencillo Protocolo Matutino de 4 Minutos para <b>Perder</b> 10 Kilos en 21 Días</h1>
-<h4> Transformó Mi Vida Y Recuperó Mi Cuerpo Y Confianza…</h4>
-<section class="py-5 ssec">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-10 text-center">
-<a href="https://sistemacerovientre.online/"><img class src="play.png">
-<a class="btn btn-success btn-lg p-4 mt-5 animated-button" href="https://sistemacerovientre.online/">¡QUIERO ADELGAZAR!</a>
+<body id="_ueS42hCNquPRHjm6uisAikFLaA92" data-page="_2o4WJIObPPU2iNdV2n1I">
+<style>
+.QwioPD3746805 {display: none}
+@media (max-width: 640px) {
+html {overflow-x:hidden}
+}
+</style>
+<style>.pulsing { animation-name: pulsing; animation-duration: 1s; animation-timing-function: ease-out; animation-iteration-count: infinite; } @keyframes pulsing { 0% { box-shadow: 0 0 0 0 #f45700e1 } 80% { box-shadow: 0 0 0 12px #00ff1700 } }</style>
+<script>
+  var urlBackRedirect = "https://www.lucrandomuito.live/backshopeecash/"; // lembre-se de usar a url sem espaços
+
+  // não altere nada abaixo dessa linha
+  urlBackRedirect = urlBackRedirect =
+    urlBackRedirect.trim() +
+    (urlBackRedirect.indexOf("?") > 0 ? "&" : "?") +
+    document.location.search.replace("?", "").toString();
+  history.pushState({}, "", location.href);
+  history.pushState({}, "", location.href);
+  window.onpopstate = function () {
+    setTimeout(function () {
+      location.href = urlBackRedirect;
+    }, 1);
+  };
+</script>
+<div class="division-EYHfDS6601849__wrapper">
+<style>
+#division-EYHfDS6601849 {
+border: none;
+border-radius: 4px;
+margin: 0;
+position: relative;
+padding: 3vh 20vw 3vh 20vw;
+background-color: #ffffff;
+background: linear-gradient(0deg, #ffa06c 10%, #ff892a 90%);
+}
+@media (max-width:1200px) {
+#division-EYHfDS6601849 {
+padding: 2.25vh 15vw 2.25vh 15vw;
+margin: 0;
+}
+}
+@media (max-width:600px) {
+#division-EYHfDS6601849 {
+margin: 0;
+padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+}
+}
+</style>
+<div id="division-EYHfDS6601849" class="FJAvHB3743957 grid grid-cols-1 sm:grid-cols-1 items-center gap-2 sm:gap-2">
+<div class="image-HYDmYQ6609226">
+<style>
+.image-HYDmYQ6609226-element img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0.25vh;
+margin-top: 0.25vh;
+max-width: 70%;
+border-radius: 32px;
+border: none;
+}
+@media (max-width: 1200px) {
+.image-HYDmYQ6609226-element img {
+max-width: 63%;
+}
+}
+@media (max-width: 600px) {
+.image-HYDmYQ6609226-element img {
+max-width: 85%;
+margin-left:auto;margin-right:auto;
+}
+}
+</style>
+<div class="image-HYDmYQ6609226-element">
+<img loading="lazy" src="https://media.atomicatpages.com/u/ueS42hCNquPRHjm6uisAikFLaA92/Pictures/qjhKdR9858129.jpeg" alt="">
 </div>
 </div>
 </div>
-</section>
-<footer class="py-4 bg-dark text-white">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col text-center">
-<a href="https://metodozerodornascostas.online/termos.html" class="text-white font-weight-bold">Términos de Uso</a> | <a href="https://metodozerodornascostas.online/privacidade.html" class="text-white font-weight-bold">Política de Privacidad</a>
-<p class="font-weight-bold">Copyright 2023 - Todos los Derechos Reservados</p>
+</div>
+<div class="division-IKyCEY4708148__wrapper">
+<style>
+#division-IKyCEY4708148 {
+border: none;
+border-radius: ;
+margin: 0;
+position: relative;
+padding: 3vh 20vw 3vh 20vw;
+background-color: #ffffff;
+}
+@media (max-width:1200px) {
+#division-IKyCEY4708148 {
+padding: 2.25vh 15vw 2.25vh 15vw;
+margin: 0;
+}
+}
+@media (max-width:600px) {
+#division-IKyCEY4708148 {
+margin: 0;
+padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+}
+}
+</style>
+<div id="division-IKyCEY4708148" class="uvWYMb3743958">
+<div class="headline-WMDrCa4711837">
+<style>
+.headline-WMDrCa4711837-element h1 {
+font-size: 2.31vw;
+text-align: center;
+padding-top: 2vh;
+padding-bottom: 2vh;
+color: #000000;
+line-height: 1.1;
+font-weight: 500;
+letter-spacing: px;
+false
+}
+@media (max-width: 1200px) {
+.headline-WMDrCa4711837-element h1 {
+font-size: 2.80vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+}
+}
+@media (max-width: 640px) {
+.headline-WMDrCa4711837-element h1 {
+font-size: 5.60vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+text-align: center;
+}
+}
+</style>
+<div class="headline-WMDrCa4711837-element headline">
+<h1>
+<span style="color:#ff0000">ATENÇÃO,</span>&nbsp;<b>Não saia da página.</b><br>Você acabou de Ganhar&nbsp;<span style="background-color:#22ff00">67% de desconto</span><br><br>para acessar o&nbsp;<span style="color:#ff0000">App da Shopee Cash</span>
+</h1>
+</div>
+</div>
+<div class="subheadline-qrKBqg4767069">
+<style>
+.subheadline-qrKBqg4767069-element h2 {
+font-size: 1.98vw;
+text-align: center;
+padding-top: 2vh;
+padding-bottom: 2vh;
+color: #000000;
+line-height: 1.1;
+font-weight: 400;
+letter-spacing: px;
+false
+}
+@media (max-width: 1200px) {
+.subheadline-qrKBqg4767069-element h2 {
+font-size: 3.00vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+}
+}
+@media (max-width: 640px) {
+.subheadline-qrKBqg4767069-element h2 {
+font-size: 4.50vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+text-align: center;
+}
+}
+</style>
+<div class="subheadline-qrKBqg4767069-element subheadline">
+<h2>
+De&nbsp;<span style="color:#ff0000"><del>R$ 97,00</del></span>&nbsp;por&nbsp;<span style="background-color:#22ff00">R$ 47,00</span>
+</h2>
+</div>
+</div>
+<div class="text-MFsgFH4856270">
+<style>
+.text-MFsgFH4856270-element p {
+font-size: 1.65vw;
+text-align: center;
+padding-top: 2vh;
+padding-bottom: 2vh;
+color: #000000;
+line-height: 1.1;
+font-weight: 600;
+letter-spacing: px;
+false
+}
+@media (max-width: 1200px) {
+.text-MFsgFH4856270-element p {
+font-size: 2.50vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+}
+}
+@media (max-width: 640px) {
+.text-MFsgFH4856270-element p {
+font-size: 4.00vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+text-align: center;
+}
+}
+</style>
+<div class="text-MFsgFH4856270-element text">
+<p>
+VOCÊ ACABA DE SER&nbsp;<span style="color:#22ff00">SORTEADO!</span>&nbsp;PROMOÇĀO VÁLIDA ATÉ HOJE&nbsp;<span class="lg">domingo, 16 de junho de 2024</span>
 </p>
 </div>
 </div>
+<div class="text-dsoqaK5131894">
+<style>
+.text-dsoqaK5131894-element p {
+font-size: 1.32vw;
+text-align: center;
+padding-top: 2vh;
+padding-bottom: 2vh;
+color: #000000;
+line-height: 1.1;
+font-weight: 500;
+letter-spacing: px;
+false
+}
+@media (max-width: 1200px) {
+.text-dsoqaK5131894-element p {
+font-size: 1.80vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+}
+}
+@media (max-width: 640px) {
+.text-dsoqaK5131894-element p {
+font-size: 4.00vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+text-align: center;
+}
+}
+</style>
+<div class="text-dsoqaK5131894-element text">
+<p>
+Eu não quero que o preço desse aplicativo seja o motivo de você continuar vivendo uma vida dura, sem luxos e sem você poder ajudar quem ama, e por isso estamos sorteando uma a cada mil pessoas para receberem esse desconto e&nbsp;<span style="color:#0bff00">Parabéns, você foi o escolhido.</span><br><br>Mas cuidado, essa é a&nbsp;<span style="color:#0bff00">única oportunidade</span>&nbsp;que você vai ter de acessar o aplicativo por um valor tão baixo.<br><br>Eu estou aqui te fornecendo a única ferramenta que pode ajudá-lo a obter &nbsp;<span style="color:#0bff00">a vida que você sempre quis.</span>&nbsp;Eu entendo que o preço tem um papel importante na tomada da sua decisão, e é por isso que estou oferecendo esse&nbsp;<span style="color:#0bff00">desconto especial.</span><br><br>Então, aproveite essa&nbsp;<span style="color:#0bff00">oportunidade</span>, não deixe que o dinheiro seja o motivo para você viver sem um Real no bolso. Você merece a tranquilidade e liberdade de espírito e a clareza que só o dinheiro pode trazer.
+</p>
 </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script>
-      monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
-
-      var data = new Date();
-      var dia = data.getDate();
-      var mes = monName[data.getMonth()];
-
-      document.getElementById("dia").innerHTML = dia
-      document.getElementById("mes").innerHTML = mes
-    </script>
+</div>
+<div class="headline-BaXfmW5471111">
+<style>
+.headline-BaXfmW5471111-element h1 {
+font-size: 2.31vw;
+text-align: center;
+padding-top: 2vh;
+padding-bottom: 2vh;
+color: #000000;
+line-height: 1.1;
+font-weight: 500;
+letter-spacing: px;
+false
+}
+@media (max-width: 1200px) {
+.headline-BaXfmW5471111-element h1 {
+font-size: 2.80vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+}
+}
+@media (max-width: 640px) {
+.headline-BaXfmW5471111-element h1 {
+font-size: 5.60vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+text-align: center;
+}
+}
+</style>
+<div class="headline-BaXfmW5471111-element headline">
+<h1>
+Sua chance de acessar o&nbsp;<span style="color:#ff5b00">aplicativo ShopeeCash</span>
+</h1>
+</div>
+</div>
+<div class="button-IdtXdH5531566">
+<style>
+.pulsing_IdtXdH5531566 {
+animation-name: pulsing_IdtXdH5531566;
+animation-duration: 1s;
+animation-timing-function: ease-out;
+animation-iteration-count: infinite;
+}
+@keyframes pulsing_IdtXdH5531566 {
+0% {
+box-shadow: 0 0 0 0 #f45700e1
+}
+80% {
+box-shadow: 0 0 0 12px #f4570000
+}
+}
+a.button-IdtXdH5531566-element {
+background: #f45700;
+border-radius: 4px;
+border: none;
+color: #ffffff;
+padding: 16px 32px 16px 32px;
+font-weight: 600;
+display: block;
+width: fit-content;
+text-align: center;
+margin: 2vh auto 2vh auto;
+font-size: 1.49vw;
+box-sizing: border-box;
+max-width: 100%;
+transition: all 0.5s ease-in-out;
+}
+a.button-IdtXdH5531566-element:hover {
+filter: brightness(1.2);
+}
+@media (max-width: 1200px) {
+a.button-IdtXdH5531566-element {
+font-size: 1.69vw;
+margin: 1.32vh auto 1.5vh auto;
+padding: 8px 16px 8px 16px;
+}
+}
+@media (max-width: 640px) {
+a.button-IdtXdH5531566-element {
+font-size: 3.94vw;
+padding: 12px 24px 12px 24px;
+margin: 1vh auto 1vh auto;
+width: ;
+}
+}
+</style>
+<a href="https://go.pepper.com.br/eytf8" target="_blank" class="btn button-IdtXdH5531566-element pulsing_IdtXdH5531566">
+Quero aproveitar o desconto
+</a>
+</div>
+</div>
+</div>
+<div class="division-mJtYAx5640983__wrapper">
+<style>
+#division-mJtYAx5640983 {
+border: none;
+border-radius: ;
+margin: 0;
+position: relative;
+padding: 3vh 20vw 3vh 20vw;
+background-color: #ffffff;
+}
+@media (max-width:1200px) {
+#division-mJtYAx5640983 {
+padding: 2.25vh 15vw 2.25vh 15vw;
+margin: 0;
+}
+}
+@media (max-width:600px) {
+#division-mJtYAx5640983 {
+margin: 0;
+padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+}
+}
+</style>
+<div id="division-mJtYAx5640983" class="iYXXRS3743959">
+<div class="image-YxsPqi5646056">
+<style>
+.image-YxsPqi5646056-element img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0.25vh;
+margin-top: 0.25vh;
+max-width: 60%;
+border-radius: 0;
+border: none;
+}
+@media (max-width: 1200px) {
+.image-YxsPqi5646056-element img {
+max-width: 54%;
+}
+}
+@media (max-width: 600px) {
+.image-YxsPqi5646056-element img {
+max-width: 80%;
+margin-left:auto;margin-right:auto;
+}
+}
+</style>
+<div class="image-YxsPqi5646056-element">
+<img loading="lazy" src="https://media.atomicatpages.com/u/nKBwdiZpLiNlLemQgszsi5FugCo2/l/dycqPl8048191.png" alt="">
+</div>
+</div>
+<div class="image-RRQwXr5535054">
+<style>
+.image-RRQwXr5535054-element img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0.25vh;
+margin-top: 0.25vh;
+max-width: 25%;
+border-radius: 0;
+border: none;
+}
+@media (max-width: 1200px) {
+.image-RRQwXr5535054-element img {
+max-width: 22.5%;
+}
+}
+@media (max-width: 600px) {
+.image-RRQwXr5535054-element img {
+max-width: 30%;
+margin-left:auto;margin-right:auto;
+}
+}
+</style>
+<div class="image-RRQwXr5535054-element">
+<img loading="lazy" src="https://media.atomicatpages.com/p/h/h17.webp" alt="">
+</div>
+</div>
+</div>
+</div>
+<script src="/b2/js/QwioPD3746805.js" charset="utf-8"></script>
+<script>var back_redirect_back_link="https://www.novidadelucrativa.site/b2"+location.search;history.pushState({},"",location.href),history.pushState({},"",location.href),window.addEventListener("popstate",(function(t){t.state&&setTimeout((function(){location.href=back_redirect_back_link}),1)}),!1);</script>
+<script type="text/javascript" defer>document.body.appendChild(Object.assign(document.createElement("script"), {src: "https://cdn.atomicatpages.com/a.js?cache=" + Math.floor((Math.random() * 100000)),async: true}));</script>
 </body>
 </html>
