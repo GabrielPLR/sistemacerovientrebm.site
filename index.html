@@ -94,6 +94,38 @@ max-width: 85%;
 margin-left:auto;margin-right:auto;
 }
 }
+<style>
+    /* Estilos do botão inicial */
+    #pulseButton {
+      display: none; /* Botão oculto inicialmente */
+      background-color: #ff8c00; /* Laranja */
+      color: white;
+      border: none;
+      padding: 20px 40px;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    /* Animação de pulsação */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1); /* Aumenta o tamanho do botão */
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    /* Aplica a animação no botão com velocidade ajustada */
+    .pulsing {
+      animation: pulse 1.1s infinite;
+    }  
 </style>
 <div class="image-idepXd9972060-element">
 </style>
@@ -272,6 +304,25 @@ text-align: center;
 }
 }
 </style>
+   <!-- Botão com link -->
+  <a href="https://pay.kirvano.com/c26b2ae5-2a7e-4376-89c5-60aefa500b07">
+    <button id="pulseButton">QUERO ME CREDENCIAR POR APENAS 12X DE 9 REAIS</button>
+  </a>
+
+  <script>
+    // Função para exibir o botão e aplicar a animação de pulsação
+    function showPulseButton() {
+      var button = document.getElementById("pulseButton");
+      button.style.display = "block"; // Exibe o botão
+      button.classList.add("pulsing"); // Adiciona a classe de animação
+    }
+
+    // Tempo em milissegundos (13 minutos e 24 segundos = 804000ms)
+    var delayTime = 12 * 60 * 1000 + 47 * 1000;
+
+    // Chama a função após o tempo definido
+    setTimeout(showPulseButton, delayTime);
+  </script>
 <div class="text-XKpYbG6440242-element text">
 <p>
 Assista até o final para&nbsp;<span style="color:#ff6824">liberar seu acesso.</span>
