@@ -49,6 +49,26 @@ margin: 0;
 padding: 1.5vh 1.5vw 1.5vh 1.5vw;
 }
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Faz o vídeo ocupar toda a altura da janela */
+  background-color: #f0f0f0; /* Cor de fundo opcional */
+}
+
+video {
+  max-width: 100%; /* Garante que o vídeo não ultrapasse a largura da tela */
+  height: auto;    /* Mantém a proporção do vídeo */
+  border: 2px solid #000; /* Opcional: borda ao redor do vídeo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para um efeito elegante */
+}
 </style>
 <div id="division-EYHfDS6601849" class="rDGAEq9978793 grid grid-cols-2 sm:grid-cols-2 items-center gap-2 sm:gap-2">
 <div class="image-idepXd9972060">
